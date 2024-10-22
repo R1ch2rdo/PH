@@ -26,6 +26,50 @@ header {
     font-size: 24px;
 }
 
+/* Bannière d'introduction */
+.intro-banner {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.banner-image {
+    width: 100%;
+    height: auto;
+    opacity: 0.8;
+}
+
+
+/* Section à propos de nous */
+.about-us {
+    background-color: #e8f5e9;
+    padding: 20px;
+    text-align: center;
+}
+
+.about-us h2 {
+    color: #4CAF50;
+}
+
+.about-us p {
+    font-size: 18px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Citation inspirante */
+.quote {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+    font-style: italic;
+}
+
+.quote blockquote {
+    font-size: 20px;
+    color: #555;
+}
+
 /* Style pour la section des articles de plantes */
 main {
     padding: 20px;
@@ -66,15 +110,6 @@ main {
     transform: scale(1.2);
 }
 
-/* Style des titres et paragraphes */
-.plant-item h3 {
-    color: #4CAF50;
-}
-
-.plant-item p {
-    color: #555;
-}
-
 /* Pied de page */
 footer {
     background-color: #333;
@@ -83,5 +118,5 @@ footer {
     padding: 10px;
     position: absolute;
     width: 100%;
-    bottom: 0;
+    bottom: 1;
 }
