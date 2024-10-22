@@ -1,0 +1,87 @@
+/* Style de base pour la page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+
+/* Style de l'en-tête */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+/* Style du logo */
+.logo img {
+    width: 50px;
+    vertical-align: middle;
+}
+
+.logo h1 {
+    display: inline;
+    margin-left: 10px;
+    font-size: 24px;
+}
+
+/* Style pour la section des articles de plantes */
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+.plant-gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+/* Style des articles individuels */
+.plant-item {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 15px;
+    text-align: center;
+    width: 200px;
+    transition: transform 0.3s;
+}
+
+/* Style pour agrandir l'image lors du survol */
+.plant-item img {
+    width: 100%;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.plant-item:hover img {
+    transform: scale(1.1);
+}
+
+/* Affichage de l'article en grand au clic */
+.plant-item:active {
+    transform: scale(1.2);
+}
+
+/* Style des titres et paragraphes */
+.plant-item h3 {
+    color: #4CAF50;
+}
+
+.plant-item p {
+    color: #555;
+}
+
+/* Pied de page */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
